@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artiklar | AI-myndigheten </title>
+    <script src="https://kit.fontawesome.com/c212de8c4a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./globalStyle.css">
+    <link rel="stylesheet" href="./style.css">
+    <link class="favicon" rel="icon" type="image/x-icon" href="./Bilder/pngLoggamindre.png">
+</head>
+<body>
+    <header>
+        <div class="headerContent">
+            
+                <div  id="logga" onclick="location.href='./index.html';">
+                    <img class="box" id="loggaImg" src="./Bilder/pngLoggaBättre.png" alt="AI-myndighetens logga">
+                    <p>AI- <br>  Myndigheten</p>
+                </div>
+
+            <div class="box" id="iconMenu">
+                <a href="./index.html">Hem</a>
+                <a href="./job.html">Jobb</a>
+                <a href="./om.html">Om</a>
+                <button class="hamburger" onclick="sideMenu()"><i class="fa-solid fa-bars" ></i></button>
+                <div id="sideMenu">
+                    <button onclick="sideMenu()"><i class="fa-solid fa-xmark" style.width="27px"></i></button>
+                    <div class="barContainer">
+                        <input type="text" placeholder="Sök..." id="barSearch">
+                        <button onclick="searchFunction()" type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                    <ul id="searchResult">
+
+                    </ul>
+                    <a href="./job.html"><h3>Jobba hos oss</h3></a>
+                    <a href="./om.html"><h3>Om oss</h3></a>
+                    <a href=""><h3>Volley ball</h3></a>
+                </div>   
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1 id="articleTitle"></h1>
+        <div id="articleText"></div>
+
+    </main>
+    <footer>
+        <div class="footerContent">
+            <div>
+                <img src="./Bilder/pngLoggaBättre.png" alt="">
+            </div>
+            <div>
+                <h6>Kontakta oss</h6> <br>
+                <p>+46-XXXX-XX-XX</p> <br>
+                <p>mail.mailadress@gmail.com</p>
+            </div>
+            <div>
+                <a href="">Jobba hos oss</a> <br>
+                <a href="">En annan länk</a> <br>
+                <a href="">En tredje länk</a>
+
+            </div>
+        </div>
+       
+    </footer>
+    <script src="jScript.js"></script>
+</body>
+</html>

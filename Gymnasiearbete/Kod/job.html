@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c212de8c4a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./globalStyle.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Jobba hos oss | AI-myndigheten</title>
+</head>
+<body>
+    <script src="jScript.js"></script>
+    <header>
+        <div class="headerContent">
+            
+                <div  id="logga" onclick="location.href='./index.html';">
+                    <img class="box" id="loggaImg" src="./Bilder/pngLoggaBättre.png" alt="AI-myndighetens logga">
+                    <p>AI- <br>  Myndigheten</p>
+                </div>
+
+            <div class="box" id="iconMenu">
+                <a href="./index.html">Hem</a>
+                <a href="./job.html">Jobb</a>
+                <a href="./om.html">Om</a>
+                <button class="hamburger" onclick="sideMenu()"><i class="fa-solid fa-bars" ></i></button>
+                <div id="sideMenu">
+                    <button onclick="sideMenu()"><i class="fa-solid fa-xmark" style.width="27px"></i></button>
+                    <div class="barContainer">
+                        <input type="text" placeholder="Sök..." id="barSearch">
+                        <button onclick="getInfo()" type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                    <ul id="searchResult">
+
+                    </ul>
+                    <a href="./job.html"><h3>Jobba hos oss</h3></a>
+                    <a href="./om.html"><h3>Om oss</h3></a>
+                    <a href=""><h3>Volley ball</h3></a>
+                </div>   
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1>Jobba hoss oss</h1>
+        <div class="availableJobs">
+            <div>
+                <h6 style="text-align: center;">Vill du jobba på AI-myndigheten? Då har du möjligheten att vara en del av en spännande och banbrytande organisation som är i framkant när det gäller att forma framtidens teknologiska landskap och samhälle. På AI-myndigheten får du inte bara chansen att arbeta med den senaste tekniken inom artificiell intelligens, utan också att vara en del av ett dedikerat team av innovatörer, forskare och experter som strävar efter att göra positiv förändring i världen. Genom att arbeta här får du möjlighet att utmana dig själv, driva fram nya idéer och bidra till att forma framtidens AI-teknologi och dess samhälleliga påverkan. Oavsett om du är teknikentusiast, strategiskt tänkare, kommunikationsmästare eller administrativt proffs finns det en plats för dig på AI-myndigheten, där vi tillsammans arbetar mot en mer innovativ, hållbar och etisk användning av artificiell intelligens för alla.</h6>
+            </div>
+            <div>
+                <p>AI Data Scientist<br>Som AI Data Scientist kommer du att vara ansvarig för att utforska och analysera stora dataset för att utveckla prediktiva modeller och insikter. Du kommer att tillämpa avancerade statistiska metoder och maskininlärningsalgoritmer för att lösa komplexa problem och optimera beslutsfattande processer inom organisationen.
+                <a href="https://arbetsformedlingen.se/"><button>Sök jobb</button></a></p>
+                <img src="./Bilder/job_data.jpg" alt="Kod på en skärm">
+            </div>
+            <div>
+                <img src="./Bilder/job_econ.jpg" alt="Människor som diskuterar på kontor">
+                <p>Som ekonomisk analytiker på AI-myndigheten kommer du att vara ansvarig för att utföra ekonomiska analyser och utvärderingar av olika projekt och program inom organisationen. Din roll innebär att samla in och analysera data, upprätta budgetar, prognoser och ekonomiska rapporter samt att ge rekommendationer för att optimera användningen av resurser och uppnå ekonomiska mål.
+                    <a href="https://arbetsformedlingen.se/"><button>Sök jobb</button></a></p>
+            </div>
+            <div>
+                <p>Som kommunikationsansvarig på AI-myndigheten kommer du att ansvara för att planera och genomföra kommunikationsstrategier och kampanjer för att öka medvetenheten och förståelsen för myndighetens arbete och initiativ. Din roll innefattar att skapa innehåll för olika kommunikationskanaler såsom webbplatser, sociala medier, pressmeddelanden och interna nyhetsbrev samt att hantera relationer med media och intressenter.<a href="https://arbetsformedlingen.se/"><button>Sök jobb</button></a></p>
+                <img src="./Bilder/job_com.jpg" alt="Panel av människor">
+            </div>
+            <div>
+                <img src="./Bilder/job_sec.png" alt="cybersäkerhet">
+                <p>Som AI Cybersecurity Analyst kommer du att utvärdera och hantera säkerhetsrisker relaterade till AI-implementeringar, inklusive hot som kan uppstå från dataintegritet, modellmanipulation och cyberattacker mot AI-system. Din roll innebär att utveckla och implementera säkerhetsstrategier och -metoder för att skydda organisationens AI-resurser. <a href="https://arbetsformedlingen.se/"><button>Sök jobb</button></a></p>
+            </div>
+            <div>
+                <p>Som HR-specialist på AI-myndigheten kommer du att vara ansvarig för att rekrytera, utveckla och behålla personal inom organisationen. Din roll innefattar att hantera rekryteringsprocessen, genomföra anställningsintervjuer, utveckla och implementera personalutvecklingsprogram, samt att ge rådgivning och stöd till anställda och chefer i frågor relaterade till personalhantering och arbetsmiljö.<a href="https://arbetsformedlingen.se/"><button>Sök jobb</button></a></p>
+                <img src="./Bilder/job_hr.png" alt="HR-möte">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footerContent">
+            <div>
+                <img src="./Bilder/pngLoggaBättre.png" alt="">
+            </div>
+            <div>
+                <h6>Kontakta oss</h6> <br>
+                <p>+46-XXXX-XX-XX</p> <br>
+                <p>mail.mailadress@gmail.com</p>
+            </div>
+            <div>
+                <a href="">Jobba hos oss</a> <br>
+                <a href="">En annan länk</a> <br>
+                <a href="">En tredje länk</a>
+
+            </div>
+        </div>
+       
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,216 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+@media screen and (max-width: 480px) {
+    #logga p, #logga img, nav a{
+        display: none;
+    }
+    
+    
+
+    /*nav a{
+        display: none;
+    }*/
+
+    #newsContainer div{
+        width: 400px;
+        height: 360px;
+    }
+    
+}
+
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.favicon{
+    size: 20px;
+}
+h1{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 36px;
+}
+
+h2{
+    font-family: 'Oswald', Arial, sans-serif;
+    font-size: 32.4px;
+}
+
+h3{
+    font-size: 20px;
+    margin: 0 auto;
+    font-weight: bolder;
+    margin-top: 45px;
+}
+h6{
+    margin-top: 35px;
+    font-size: 16.2px;
+    font-weight: 500;
+}
+
+a{
+    color: black;
+}
+/*Header*/
+
+header{
+    border-bottom: 2px groove gray;
+}
+.headerContent{
+    height: 135px;
+    width: 90%;
+    display: flex;
+    margin: auto;
+}
+.box{
+    flex: 1;
+  display: flex;
+  align-items: center;
+  
+}
+
+#logga{
+    display: inline-flex;
+    justify-content: left;
+    font-family: 'Oswald', Arial, sans-serif;
+    padding-top: 2vh;
+    size: 100%;
+}
+
+#logga p{
+    
+    color: rgb(21, 82, 160);
+    font-size: 25px;
+	height: 90%;
+	margin-top: auto;
+}
+
+#loggaImg{
+    height: 90%;
+    width: auto;
+}
+
+.box a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 21px;
+}
+
+.box a:hover{
+    text-decoration:underline;
+}
+
+#iconMenu{
+    display: inline-flex;
+    justify-content: right;
+}
+
+#iconMenu button{
+    border: none;
+    background-color: rgb(255, 255, 255); 
+    height: auto;
+    font-size: 27px;
+    border-radius: 50%;
+    
+}
+
+.hamburger{
+    margin-left: 20px;
+}
+
+#sideMenu{
+    padding-top: 54px;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100vh;
+    background-color: white;
+    position: fixed;
+    flex-direction: column;
+    border-left: 16px solid rgb(21, 82, 160);
+    transition: 0.4s;
+}
+
+#sideMenu a, button{
+    display: block;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+#bar{
+    height: auto;
+    margin: auto;
+}
+
+.barContainer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+    width: 95%;
+    margin: auto;
+}
+
+.barContainer button{
+    margin-left: 0;
+}
+
+#barSearch{
+    background-color: rgba(213, 213, 213, 0.671);
+    border: none;
+    height: 45px;
+    width: 100%;
+    border-radius: 18px;
+}
+
+input::placeholder{
+    margin-left: 10px;
+}
+
+footer{
+    background-color: rgb(21, 82, 160);
+    margin-top: 130px;
+    height: 25vh;
+}
+
+.footerContent{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.footerContent div{
+vertical-align: baseline;
+}
+
+footer img{
+margin-top: 35px;
+width: 11vh;
+height: auto;
+background-image: radial-gradient(closest-side at 50% 50%, rgb(9, 38, 77) 1.5%, rgba(0,0,0,0));
+}
